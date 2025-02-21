@@ -1,9 +1,9 @@
 alert ("Começar o Sorteio!");
 
+// Lista de amigos
 let listaDeAmigos = [];
 
 //Função para acionar os nomes no sorteio
-
 function adcionarAmigo(){
     let nomeSorteio = document.querySelector('#amigo').value;
     //Alerta de Campo Vazio
